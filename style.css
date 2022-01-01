@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.content 
+{
+    width: 300px;
+    height: 550px;
+    padding: 20px 20px;
+    background:hsl(216, 50%, 16%);
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content img
+{
+   width: 100%;
+   height: 260px;
+   border-radius: 10px;
+}
+/********************* FIRST TEXT****************************/
+.first_text
+{
+    width: 100%;
+    height: 350px;
+    
+}
+.first_text h2
+{
+    color:hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+.first_text h2:hover
+{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.first_text p
+{
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+/******************* SECONDARY TEXT ******************/
+.secondary_text
+{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.secondary_text--left
+{
+    width: 50%;
+    height: 20px;
+    
+    display: flex;
+}
+.secondary_text--left img{
+    width: 10px;
+    height: 20px;
+    margin-top: -5px;
+}
+.secondary_text--left h2
+{
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+    margin-left:5px ;
+    line-height: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.secondary_textRight
+{
+    width: 50%;
+    height: 20px;
+    
+    display: flex;
+    justify-content:right;
+}
+.secondary_textRight img
+{
+    width: 15px;
+    height: 15px;
+
+}
+.secondary_textRight h2
+{
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+    line-height: 14px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+}
+
+/************** THIRD TEXT ********************/
+
+.third_text
+{
+    width:100%;
+    height: 80px;
+    display: flex;
+    margin-top: 10px;
+      
+}
+.third_text img
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.third_text h2
+{
+    color:hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10px;
+    line-height: 40px;
+}
+.third_text h2:hover
+{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.name_color
+{
+    color:hsl(215, 51%, 70%);
+}
+
+/******************** eye ****************/
+
+.eye 
+{
+    position: absolute;
+    width: 260px;
+   height: 260px;
+   border-radius: 10px;
+   margin-top: -250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: hsl(178, 100%, 50%,.3);
+   opacity: 0;
+   
+
+}
+.eye img 
+{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.eye:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
